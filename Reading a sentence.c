@@ -16,4 +16,10 @@ printf("String is: %s\n", str1);
 
 printf("\nThe gets() function is risky to use since it doesn't perform any array bound checking and keep reading the characters until the new line (enter) is encountered. It suffers from buffer overflow, which can be avoided by using fgets(). The fgets() makes sure that not more than the maximum limit of characters are read.");
 
+printf("\n\nPrinting using puts\n");
+printf("fgets: ");    
+puts(str2);  //displays string 
+
+printf("\nscanf: ");    
+puts(str1);  //displays string 
 }
