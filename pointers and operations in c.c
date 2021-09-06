@@ -3,7 +3,7 @@
 int main(){
 
 int x = 2;
-int *y;
+int* y;
 y = &x;
 int z = 2;
 int *k ;
