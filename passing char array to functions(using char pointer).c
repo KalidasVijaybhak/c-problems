@@ -1,6 +1,8 @@
 #include<stdio.h>
 #include<string.h>
 int string_read(char* str){
+
+	str = "hello";
     return strlen(str);
 }
 int main(){

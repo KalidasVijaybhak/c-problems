@@ -1,0 +1,47 @@
+
+
+
+
+#1 Function Prototypes
+The function prototypes are used to tell the compiler about the number of arguments and about the required datatypes of a function parameter, it also tells about the return type of the function. By this information, the compiler cross-checks the function signatures before calling it.
+
+#2 String functions in c
+
+1)  strlen(string_name) : returns the length of string name.
+2)	strcpy(destination, source)	: copies the contents of source string to destination string.
+3)	strcat(first_string, second_string)	: concats or joins first string with second string. The result of the string is stored in first string.
+4)	strcmp(first_string, second_string)	: compares the first string with second string. If both strings are same, it returns 0.
+5)	strrev(string) : returns reverse string.
+6)	strlwr(string) : returns string characters in lowercase.
+7)	strupr(string) : returns string characters in uppercase.
+
+#3 different ways in which a single dimensional array can be declared and initialized.
+
+	int num[5] = {1, 1, 1, 1, 1};
+	int num[ ] = {1, 1, 1, 1, 1};
+	int num[100];
+	int num[5] =  { };                // num = [0, 0, 0, 0, 0]
+	int num[5] =  { 1 };             // num = [1, 0, 0, 0, 0]
+#4 why goto should be avoided
+	 GOTO statement is a control statement that is used to jump to a specific point in the code.
+	Use of goto statement is highly discouraged in any programming language because it makes difficult to trace the control flow of a program, making the program hard to understand and hard to modify. Any program that uses a goto can be rewritten to avoid them.
+
+	Infinite Loop
+	Confusing Code
+
+#5 Functions
+		
+	C programming makes use of modularity to remove the complexity of a program. The programmer divides the program into different modules or functions and accesses certain functions when needed.A function is basically a block of statements that performs a particular task. 
+	Every C program has at least one function. The most common function that we use in our day-to-day programming is the main() function. The compiler always executes the main() function first and then any other function(if it is called from the main method).
+
+
+	• Use of functions enhances the readability of a program. A big code is always difficult to read. Breaking the code in smaller Functions keeps the program organized, easy to understand and makes it reusable.
+	• The C compiler follows top-to-down execution, so the control flow can be easily managed in case of functions. The control will always come back to the main() function.
+	• It reduces the complexity of a program and gives it a modular structure.
+	• In case we need to test only a particular part of the program we will have to run the whole program and figure out the errors which can be quite a complex process. Another advantage here is that functions can be individually tested which is more convenient than the above mentioned process.
+	• A function can be used to create our own header file which can be used in any number of programs i.e. the reusability.  
+
+
+	Types
+	Built-in Functions/library Functions ex: printf(),scanf()
+	User-defined Functions  
