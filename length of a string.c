@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<string.h>
 int  length_word(char str[100]);
 int  length_sentence(char str[100]);
 int main(){
@@ -7,7 +8,7 @@ char Str[1000],Str1[100];
    
      printf("\nEnter the Sentence: ");
     fgets(Str1,sizeof(Str1),stdin);
-   
+       Str1[strlen(Str1)-1]=0;//this will resolve the #5 
     printf("\nLength of Sentence is %d\n", length_sentence(Str1));
     
     printf("Enter the Word: ");
@@ -30,5 +31,4 @@ int  length_sentence(char str[100]){
 int i;
     for (i = 0; str[i] != '\0'; ++i);
     return i;
-
 }
