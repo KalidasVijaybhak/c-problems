@@ -1,7 +1,6 @@
  
 #include <stdio.h>
 #include <stdlib.h>
- 
 void matrix_read(int [10][10], int);
 void matrix_display(int [10][10], int);
 void matrix_sum(int [10][10], int [10][10], int [10][10],int);
