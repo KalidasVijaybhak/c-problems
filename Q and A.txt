@@ -45,3 +45,23 @@ The function prototypes are used to tell the compiler about the number of argume
 	Types
 	Built-in Functions/library Functions ex: printf(),scanf()
 	User-defined Functions  
+
+#6 why fgets is  better for strings
+
+	If you type more than four characters then the extra characters and the null terminator will be written outside the end of the array, overwriting memory not belonging to the array. This is a buffer overflow.
+
+	C does not prevent you from clobbering memory you don't own. This results in undefined behavior. Your program could do anything—it could crash, it could silently trash other variables and cause confusing behavior, it could be harmless, or anything else. Notice that there's no guarantee that your program will either work reliably or crash reliably. You can't even depend on it crashing immediately.
+
+	This is a great example of why scanf("%s") is dangerous and should never be used. It doesn't know about the size of your array which means there is no way to use it safely. Instead, avoid scanf and use something safer, like fgets():
+
+#7 Relationship between array and pointers
+
+	Array is a data structure that hold finite sequeential collection of similar data type.
+
+	Array elements are sequentially stored in memory.
+
+	The name of the array is a pointer to the first element of the array. That means it holds the address of the very first element of the array. 
+	All array names will implicitly convert to a pointer to the first element in the array when an array name  appears as an argument to a
+	function
+
+#8 	

@@ -1,0 +1,13 @@
+Storage class 
+	it defines the scope and life time of variable and functions
+
+	Types:	
+		-> Auto
+		-> Static
+		-> Extern/global
+			all above store in ram
+		-> Global :- stored in register
+
+
+garbage value : random negativ eor positive value		
+
