@@ -9,5 +9,14 @@ Storage class
 		-> Global :- stored in register
 
 
-garbage value : random negativ eor positive value		
+garbage value : random negativ eor positive value
+
+
+
+auto : By default all variables are auto.
+		Syntax:
+			auto datatype variable name;
+			datatype variable name;
+
+						
 
