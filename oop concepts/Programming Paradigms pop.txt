@@ -1,0 +1,10 @@
+Pop
+can be defined as a programming model which is derived from structured programming, based upon the concept of calling procedure. Procedures, also known as routines, subroutines or functions, simply consist of a series of computational steps to be carried out. During a program’s execution, 
+
+
+-> a large program is divided into functions and each function has a clearly defined purpose.
+-> The primary focus is given to functions and not data.
+-> data moves openly from function to function	
+-> Procedural programming follows top down approach.
+-> Procedural programming does not have any proper way for hiding data so it is less secure.
+Examples: C, FORTRAN, Pascal, Basic etc.

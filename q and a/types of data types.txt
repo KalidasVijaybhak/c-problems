@@ -1,0 +1,7 @@
+Data type:
+	It is a term that is used to show what kind of data value or type of data that is epected to be handled by the variables,arguments or return type of functions.
+
+	Types:
+	Fundamental data types: Built in data types. ex int float char
+	Derived data types: Built in data types composed of fundamental data types ex arrays , pointers
+	User defined data types : Data types that are created by user ex: structure union etc.
