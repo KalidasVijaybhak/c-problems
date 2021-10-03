@@ -5,3 +5,15 @@ Data type:
 	Fundamental data types: Built in data types. ex int float char
 	Derived data types: Built in data types composed of fundamental data types ex arrays , pointers
 	User defined data types : Data types that are created by user ex: structure union etc.
+
+	Variables:
+	Are identifiers which names a memory location whose value can be manipulated using program execution.
+
+	Scope: local and global
+
+	Type Modifiers:
+		long.
+		short.
+		signed.
+		unsigned.
+		long long.
